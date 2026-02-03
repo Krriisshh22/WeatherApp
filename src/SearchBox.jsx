@@ -60,6 +60,7 @@ const API_KEY = import.meta.env.VITE_API_KEY;
           variant="outlined"
           required
           value={city}
+          style={{color : "white"}}
           onChange={handleChange}
         />
         <br></br>
